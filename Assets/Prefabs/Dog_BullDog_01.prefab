@@ -5854,6 +5854,7 @@ GameObject:
   - component: {fileID: 7642319683852070900}
   - component: {fileID: 7642319683842843956}
   - component: {fileID: 7642319681997654957}
+  - component: {fileID: -1525314248311356973}
   m_Layer: 0
   m_Name: Dog_BullDog_01
   m_TagString: Untagged
@@ -5869,7 +5870,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7642319683852421000}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 0.96, y: 0, z: 12.91}
+  m_LocalPosition: {x: 0.96, y: 0, z: 5}
   m_LocalScale: {x: 6.5, y: 6.5, z: 6.5}
   m_Children:
   - {fileID: 7642319683852148620}
@@ -5944,6 +5945,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
+--- !u!114 &-1525314248311356973
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7642319683852421000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a5364944ee7bab4697263c1bdbb7927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7642319683852421120
 GameObject:
   m_ObjectHideFlags: 0
